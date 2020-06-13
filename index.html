@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>vueJsTest</title>
+	</head>
+	<body>
+
+		<div id="app">
+
+			<h2>{{name}}</h2>			
+			<label>Name:</label>
+			<input type="text" v-model="name">
+			<br>
+			<label>Checkbox value: {{checked}}</label>
+			<input type="checkbox" v-model="checked">
+		</div>
+
+		<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+		<script src="app.js"></script>
+	</body>
+</html>
